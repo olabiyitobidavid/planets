@@ -3,3 +3,8 @@ Usually refered to as Earth twins.
 
 
 Thank you!
+<<<<<<< HEAD
+=======
+To God be the glory!
+Great things HE has done.
+>>>>>>> 39dcd9306fc0317013861636b79c06bbc9c10eb5
