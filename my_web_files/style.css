@@ -3,7 +3,7 @@ color: white;
 background-color: red;
 font-size: 32px;
 text-align: center ;
-font-weight: bold;
+/* font-weight: bold;? */
 }
 .odd-numbered{
     background-color: #ffb6c1;
