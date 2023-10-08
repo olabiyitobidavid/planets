@@ -11,6 +11,10 @@ font-weight: bold;
 }
 #numbered2{
     color: #0000ff;
+    position: absolute;
+    /* padding: 50% auto; */
+    margin: 50% 50% ;
+    /* bottom: 0 auto; */
     font-size: 36px;
 }
 .odd-numbered.cooler{
