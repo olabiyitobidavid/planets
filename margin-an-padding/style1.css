@@ -1,7 +1,6 @@
 body {
-    background: #eee;
+    background: black; /* CHANGE ME */
     font-family: sans-serif;
-    color: grey; /* NEW ME */
   }
   
   .card {
