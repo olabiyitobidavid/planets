@@ -12,20 +12,20 @@ body {
 
 .title {
   background: #e3f4ff;
-  padding: 8px;
-  margin: 10px auto;  
+  padding: 8px; /*  NEW ME */
+  margin: 10px auto;  /*  NEW ME */
 }
 
 .content {
   background: #e3f4ff;
-  padding: 10px;
+  padding: 10px; /*  NEW ME */
 }
 
 .button-container {
   background: #e3f4ff;
-  text-align: center;
-  margin-top: 10px;
-  padding: 10px 0px;
+  text-align: center; /*  NEW ME */
+  margin-top: 10px; /*  NEW ME */
+  padding: 10px 0px; /*  NEW ME */
 }
 
 button {
