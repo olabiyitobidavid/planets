@@ -1,2 +1,2 @@
 # MY Read me
-This contains info.
+This documents several learning procedures. It ranges from python through the odin projects.
