@@ -4,9 +4,10 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 500px; /* CHANGE ME */
   background: #fff;
-  margin: 16px auto;
+  margin: 16px auto; 
+  padding: 1px 10px 10px; /* NEW ME */
 }
 
 .title {
@@ -19,9 +20,12 @@ body {
 
 .button-container {
   background: #e3f4ff;
+ margin: 50px 150px 0px; /* NEW ME */
+ padding: 10px 0px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: auto; /* NEW ME */
 }
