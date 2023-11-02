@@ -13,6 +13,7 @@ body {
 .title {
   background: #e3f4ff;
   padding: 8px;
+  margin: 10px; /*  NEW ME */
 }
 
 .content {
@@ -24,13 +25,13 @@ body {
   background: #e3f4ff;
   text-align: center;
   margin-top: 10px;
-  padding-top: 10px;
+  padding: 10px 0px;
 }
 
 button {
   background: white;
   display: block;
   border: 1px solid #eee;
-  margin: 0% 0% 0% 38%;
-  padding: 5px;
+  margin: 0% 32% 0% 32%;
+  padding: 10px 30px;
 }
