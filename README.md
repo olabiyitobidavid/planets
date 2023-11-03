@@ -9,4 +9,4 @@ This documents several learning procedures. It ranges from python through the od
 <a href="https://github.com/olabiyitobidavid/planets/tree/main/margin-an-padding">Margin and Padding</a>
 
 ## Flex box
-<a href="https://github.com/olabiyitobidavid/planets/tree/main/flex-box">Margin and Padding</a>
+<a href="https://github.com/olabiyitobidavid/planets/tree/main/flex-box">Flex box</a>
