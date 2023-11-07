@@ -35,7 +35,7 @@ body {
    /* height: 30px; */
    width: 30px;
    /* height: 50px; */
-   margin: 15px 10px;
+   /* margin: 15px 10px; */
    padding: 0 0;
  /*   margin: 0 auto; */
    flex: auto;
@@ -44,14 +44,22 @@ body {
     /* padding: 0 auto; */
     display: flex;
     gap: 0;
+    margin: 15px 10px;
     /* height: 50px; */
-   /* margin: 0px 0px; */
+   /* margin: 0 0; */
   }
+.one-1,.one-3{
+  margin: 15px 10px;
+}
+
+
+
   .one-2 div {
     /* height: 15px; */
     background: rgb(205, 205, 241);
     border: 4px solid red;
-    flex: 1;
+    flex: auto;
+    margin: 5px 0;
   }
  .flex-container2{
    display:flex;
@@ -107,13 +115,12 @@ body {
  flex: auto;
  background: rgb(235, 220, 153);
    border: 4px solid rgb(250, 110, 110);
-   /* margin: 10px 3px; */
    margin: 10px auto;
 }
   .three-1,.three-4 {
     width: 30px;
     background: rgb(205, 205, 241);
     border: 4px solid rgb(112, 70, 211);
-    margin: 10px 3px
+    margin: 10px 5px
   }
   
