@@ -33,16 +33,12 @@ body {
 }
 
  .one-2 {
-    /* padding: 0 auto; */
     display: flex;
     gap: 0;
     margin: 15px auto;
-    /* height: 50px; */
-   /* margin: 0 0; */
   }
 
   .one-2 div {
-    /* height: 15px; */
     background: rgb(205, 205, 241);
     border: 4px solid red;
     flex: auto;
@@ -60,7 +56,7 @@ body {
    /* background: rgb(245, 186, 186); */
    /* border: 5px solid rgb(209, 9, 9); */
    /* margin: 0 5px; */
-   /* margin: 15px 10px; */
+   /* margin: 2px 0px; */
  }
  .two-1{
   /* height: 50px; */
@@ -70,20 +66,21 @@ body {
  }
 .two-2-3{
     flex-direction: column;
-    margin: 0px auto;
-    /* margin: 0 auto; */
+    /* margin-right: 10px; */
   display: flex;
-  background: rgb(245, 186, 186);
 }
 .two-2-3 div {
-    /* height: 10px; */
-    /* margin: auto 0; */
-    
+  /* margin: 0px 5px 0px 5px; */
     flex: auto;
+    height: 50px;
+    background: rgb(245, 186, 186);
+    border: 4px solid rgb(161, 3, 3);
     }
-.two-2,.two-3{
-  border: 4px solid rgb(161, 3, 3);
-  /* margin:5px 5px 5px; */
+.two-2{
+  margin-bottom: 5px;
+}
+.two-3{
+  margin-top: 5px;
 }
 
  .flex-container3{
