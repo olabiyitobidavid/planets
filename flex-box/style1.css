@@ -3,3 +3,12 @@ body {
     max-height: 1200px;
     margin: 2% auto;
   }
+
+  .form {
+    width: 600px;
+    display: flex;
+    background: rgb(226, 226, 27);
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
