@@ -12,7 +12,6 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  
   display: flex;
   justify-content: space-between;
   padding: 8px;
@@ -34,7 +33,6 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  /* margin-right: 0; */
 }
 
 button {
@@ -43,7 +41,6 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  /* flex: auto; */
 }
 
 a {
@@ -53,7 +50,7 @@ a {
 }
 
 ul {
-    /* this removes the dots from ur list-items */
+    /* this removes the dots from our list-items */
   list-style-type: none;
   display:flex;
   margin:0;
@@ -70,3 +67,7 @@ ul {
     display: flex;
     gap: 15px;
 } */
+.right-header img {
+max-width: 50px;
+max-height: 200px;
+}
