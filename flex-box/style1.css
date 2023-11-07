@@ -5,13 +5,13 @@ body {
   }
 
   .form {
-    width: 450px;
+    width: 800px;
     display: flex;
     background: rgb(226, 226, 27);
     border: 2px solid black;
     align-items: flex-end;
     flex-wrap: wrap;
-    gap: 0px;
+    gap: 16px;
   }
   .name {
     flex-grow: 1;
@@ -24,4 +24,9 @@ body {
   .button {
     flex-grow: 1;
     flex-basis: 80px;
+  }
+  .form input {
+    color:white
+    border: white;
+    min-width: 242px;
   }
