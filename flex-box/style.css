@@ -7,51 +7,42 @@ body {
     display: flex;
     flex-direction: column;
    background: rgb(216, 235, 187);
-   /* padding: 16px; */
    border: 4px solid green;
  }
  
  /* this selector selects all divs inside of .flex-container */
  .flex-container div {
-   /* background: peachpuff; */
-   /* border: 4px solid brown; */
-   /* height: 50px; */
-   /* padding: 10px; */
-   /* margin: 10px; */
     flex: 1; 
  }
  .flex-container1 {
      background: rgb(157, 213, 245);
     border: 4px solid blue;
-    /* padding: 0px; */
     margin: 10px 10px;
-    /* padding: 0 auto; */
       display: flex;
  }
  .flex-container1 div {
    text-align: center;
    background: rgb(235, 220, 153);
    border: 5px solid rgb(250, 110, 110);
-   /* height: 30px; */
    width: 30px;
-   /* height: 50px; */
-   margin: 15px 10px;
    padding: 0 0;
- /*   margin: 0 auto; */
    flex: auto;
  }
+ .one-1,.one-3{
+  margin: 15px 10px;
+}
+
  .one-2 {
-    /* padding: 0 auto; */
     display: flex;
     gap: 0;
-    /* height: 50px; */
-   /* margin: 0px 0px; */
+    margin: 15px auto;
   }
+
   .one-2 div {
-    /* height: 15px; */
     background: rgb(205, 205, 241);
     border: 4px solid red;
-    flex: 1;
+    flex: auto;
+    margin: 5px auto;
   }
  .flex-container2{
    display:flex;
@@ -59,34 +50,30 @@ body {
  .flex-container2 div {
    color: white ;
    text-align: center;
-   flex: 1;
-   /* margin-left: 5px; */
-   /* height: 60px; */
-   /* background: rgb(245, 186, 186); */
-   /* border: 5px solid rgb(209, 9, 9); */
-   /* margin: 0 5px; */
-   /* margin: 15px 10px; */
+   flex: auto;
  }
  .two-1{
-  /* height: 50px; */
   background: rgb(245, 186, 186);
   border: 4px solid rgb(161, 3, 3);
-  /* margin: 5px 10px; */
+  margin: 0 10px;
  }
 .two-2-3{
     flex-direction: column;
-    /* margin: 5px 10px; */
-    /* margin: 15px 10px; */
+    margin-right: 10px;
   display: flex;
-  background: rgb(245, 186, 186);
 }
 .two-2-3 div {
-    /* height: 10px; */
-    
+    flex: auto;
+    height: 50px;
+    background: rgb(245, 186, 186);
     border: 4px solid rgb(161, 3, 3);
-    flex: 1;
     }
-
+.two-2{
+  margin-bottom: 5px;
+}
+.two-3{
+  margin-top: 5px;
+}
 
  .flex-container3{
   background: rgb(157, 213, 245);
@@ -97,22 +84,22 @@ body {
   .flex-container3 div {
     color: white ;
     text-align: center;
-    flex: 1;
+    flex: auto;
     height: 50px;
   }
   .three-2-3{
     display:flex;
   }
 .three-2-3 div {
- flex: 1;
+ flex: auto;
  background: rgb(235, 220, 153);
    border: 4px solid rgb(250, 110, 110);
-   margin: 10px 3px;
+   margin: 10px auto;
 }
   .three-1,.three-4 {
     width: 30px;
     background: rgb(205, 205, 241);
     border: 4px solid rgb(112, 70, 211);
-    margin: 10px 3px
+    margin: 10px 5px
   }
   
