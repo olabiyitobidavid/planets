@@ -12,11 +12,14 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  
   display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
-.header div{
-    flex: auto;
-}
+/* .header div{
+    flex: 1 1 1;
+} */
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
@@ -52,24 +55,18 @@ a {
 ul {
     /* this removes the dots from ur list-items */
   list-style-type: none;
-  /* margin-left: 0; */
+  display:flex;
+  margin:0;
+  padding:0;
+  gap: 16px;
 }
 
-.left-header{
+.left-header,.right-header{
     display: flex;
-    gap:0px;
+    gap: 16px;
+    align-items: center;
 }
-.left-header ul{
-    /* margin: auto auto; */
-}
-
-.links{
+/* .links{
     display: flex;
     gap: 15px;
-    /* margin-left: 0; */
-}
-.right-header{
-    display: flex;
-    gap: 25px;
-    /* margin-right: 0; */
-}
+} */
