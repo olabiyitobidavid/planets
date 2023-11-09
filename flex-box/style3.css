@@ -13,6 +13,25 @@ body {
     text-align: center;
   }
   
+.flex-cointainer{
+    display: flex;
+    gap:52px;
+    margin: 32px 5%;
+}
+
+.flex-cointainer div{
+    flex: auto;
+    text-align: center;
+    text-overflow: wrap;
+}
+
+
+
+
+
+
+
+
   /* do not edit this footer */
   .footer {
     position: fixed;
