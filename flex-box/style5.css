@@ -28,11 +28,37 @@ input {
 
 .header{
     display: flex;
-    /* flex-direction: column; */
+    justify-content: space-between;
 }
+
+.left-links,.right-links{
+    display: flex;
+}
+.header li,a{
+    padding: 5%;
+    text-decoration: none;
+}
+
+.header ul{
+    list-style-type: none;
+    
+}
+
 .content{
     /* display: flex; */
     /* align-items: center; */
     /* align-content: center; */
     /* align:center; */
+}
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul,li,a{
+    padding: 5%;
+    text-decoration: none;
 }
