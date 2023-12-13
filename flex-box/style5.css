@@ -57,8 +57,17 @@ input {
 .footer{
     display: flex;
     justify-content: space-between;
+    margin-left: 0;
 }
-.footer ul,li,a{
-    padding: 5%;
-    text-decoration: none;
+
+
+.footer li,a{
+    padding-left: 0;
+    padding-right: 2%;
+    margin-left: 0;
+    /* text-decoration: none; */
+}
+.footer ul{
+    list-style-type: none;
+    margin-left: 0;
 }
