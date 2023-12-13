@@ -28,8 +28,23 @@ input {
 
 .header{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
+
+.header ul{
+    text-decoration: none;
+}
+
+
+
 .left-links,.right-links{
     text-decoration: none;
+    text-underline-offset: none;
+}
+
+.content{
+    /* display: flex; */
+    /* align-items: center; */
+    /* align-content: center; */
+    align:center;
 }
